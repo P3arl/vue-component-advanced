@@ -4,8 +4,8 @@
             <div class="col-xs-12">
                <!-- <app-quote quote="A wonderful quote!"></app-quote> -->
                <app-quote>
-                   <h2>The Quote</h2>
-                   <p>A Wonderful Quote!</p>
+                   <h2 slot="title">The Quote</h2>
+                   <p slot="content">A Wonderful Quote!</p>
                </app-quote>
             </div>
         </div>

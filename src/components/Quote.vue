@@ -1,7 +1,11 @@
 <template>
   <div>
-      <!-- <p>{{ quote }}</p> -->
-      <slot></slot>
+      <div class="title"> 
+          <slot name="title"></slot>
+      </div><hr>
+      <div>
+          <slot name="content"></slot>
+      </div>
   </div>
 </template>
 
@@ -22,5 +26,9 @@ div {
 
 h2 {
     color: red;
+}
+
+.title {
+    font-style: italic;
 }
 </style>
